@@ -490,15 +490,37 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 111.76 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70dd7977-798e-4568-b311-0f3deb1528e5")
+	)
+	(junction
+		(at 146.05 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad1bbd46-7a48-4a53-930d-b36a3260cfb9")
+	)
 	(wire
 		(pts
-			(xy 132.08 68.58) (xy 133.35 68.58)
+			(xy 132.08 63.5) (xy 133.35 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ce992f0-ce23-4635-8144-dc9b1e216d9b")
+		(uuid "0eb7449e-050f-4695-8dd5-b78e5ac8315c")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34396aa0-923c-4f25-9c32-9cb8e2bb229d")
 	)
 	(wire
 		(pts
@@ -509,6 +531,26 @@
 			(type default)
 		)
 		(uuid "3e3439b0-f899-490d-9922-9b64a45c3600")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4438401e-6c54-41a2-8df9-8ece934f012d")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 146.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ea361c-109a-4462-8b24-cc4b23849652")
 	)
 	(wire
 		(pts
@@ -529,6 +571,16 @@
 			(type default)
 		)
 		(uuid "52ca8f1f-407d-4d05-aa47-3a7064eb8d62")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 133.35 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558f9e2d-92c7-445a-a5c9-faf6824db922")
 	)
 	(wire
 		(pts
@@ -569,6 +621,16 @@
 			(type default)
 		)
 		(uuid "cfe66049-c2e3-4419-a3f3-1d6afadc5678")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b19aa0-1bf7-46d9-a340-3e1c9aaac267")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -712,6 +774,160 @@
 			(project ""
 				(path "/8b06aeeb-6994-498e-9631-778fb4ee0666"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 137.16 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "824c9f18-e5c6-4fcc-8c2b-44b68ff5180d")
+		(property "Reference" "D4"
+			(at 135.5725 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 135.5725 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d7f0648-7b97-415a-b813-7c8fde0bcead")
+		)
+		(pin "1"
+			(uuid "8377058d-a9cb-4b8d-a732-4cd57e5a6937")
+		)
+		(instances
+			(project "newcircuit"
+				(path "/8b06aeeb-6994-498e-9631-778fb4ee0666"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 128.27 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b04fa2-c9ab-4051-98ad-fb55536ea513")
+		(property "Reference" "D3"
+			(at 126.6825 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 126.6825 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89e67aad-4562-48a6-9ca0-d99282428820")
+		)
+		(pin "1"
+			(uuid "b74123d0-138b-487a-a3fe-9450b7189b2e")
+		)
+		(instances
+			(project "newcircuit"
+				(path "/8b06aeeb-6994-498e-9631-778fb4ee0666"
+					(reference "D3")
 					(unit 1)
 				)
 			)
